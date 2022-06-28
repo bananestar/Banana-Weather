@@ -18,7 +18,6 @@ formQuery.addEventListener("submit", (event) => {
 
   event.preventDefault();
 
-  // console.log(namePK);
   sendRequestData(city);
 
   formQuery.reset();
