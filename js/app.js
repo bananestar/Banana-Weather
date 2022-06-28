@@ -7,9 +7,6 @@
 const displayResult = document.getElementById("weather");
 const formQuery = document.forms["formQuery"];
 
-const url_weather =
-  "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}";
-
 const key = "bfc7ad09e553c1efc6f19c1e8c27126c";
 
 formQuery.addEventListener("submit", (event) => {
