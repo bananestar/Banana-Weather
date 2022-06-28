@@ -1,0 +1,28 @@
+/*
+ * Created on Mon Jun 27 2022 16:00:02
+ *
+ * Copyright (c) 2022 Simon Vander Linden
+ */
+ body {
+    margin: 0;
+    box-sizing: border-box;
+    background: url(../img/gardenBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.50);
+  }
+
+  .container > h1 , #weather{
+    color: white;
+  }
+
+  
